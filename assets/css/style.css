@@ -96,6 +96,7 @@ nav a:first-child {
   border-left: 0 none;
 }
 
+
 /* footer */
 
 footer {
@@ -215,3 +216,38 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media screen and (max-width:980px){
+  
+  .container{
+    max-width: 980px;
+  }
+
+}
+
+@media screen and (max-width:768px){
+  .container{
+    max-width: 768px;
+  }
+
+}
+
+@media screen and (max-width:640px){
+
+  .container{
+    max-width: 640px;
+  }
+    /* Responsiveness to header */
+
+    #logo {
+      width: 100%;
+    }
+
+    nav  {
+      width: 100%;
+      text-align: center;
+    }
+
+
+}
+
