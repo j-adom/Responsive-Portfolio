@@ -141,8 +141,10 @@ h3, h2 {
   position: relative;
   float: left;
   width: 274px;
+  padding: 5px;
   margin: 20px 0 25px;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 .work:nth-child(even) {
